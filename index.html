@@ -32,10 +32,10 @@
       dataUrl: buildUrl + "/SCGHouse2DTest.data",
       frameworkUrl: buildUrl + "/SCGHouse2DTest.framework.js",
       codeUrl: buildUrl + "/SCGHouse2DTest.wasm",
-      streamingAssetsUrl: "StreamingAssets",
+        streamingAssetsUrl: "StreamingAssets",
       companyName: "YVR Studio",
       productName: "SCG2D Roof",
-      productVersion: "0.10 update 5 house",
+      productVersion: "0.11",
     };
 
     const container = document.querySelector("#unity-container");
@@ -63,7 +63,7 @@
 
     if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
       container.className = "unity-mobile";
-      config.devicePixelRatio = 1.3;
+      config.devicePixelRatio = 1.5;
     }
     loadingCover.style.display = "";
 
